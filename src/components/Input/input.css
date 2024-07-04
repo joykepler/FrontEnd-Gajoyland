@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     margin-top: 10px;
+    position: relative;
 }
 
 .input-box {
@@ -12,10 +13,34 @@
     border: 1px solid #e6e6e649;
     border-radius: 10px;
     padding: 20px;
-    background-color: #a6a6a663;
+    background-color: #c1c1c163;
+    outline: none;
 }
 
 .input-box::placeholder {
     font-size: 15px;
-    color: #4F4F4f;
+    color: #757575;
+}
+
+.input svg {
+    position: absolute;
+    left: 80%;
+    top: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .input-box {
+        width: 100%;
+        padding: 10px;
+    } 
+
+    .input svg {
+        position: absolute;
+        left: 85%;
+        top: 25%;
+    }
+
+    .input-box::placeholder {
+        font-size: 14px;
+    }
 }

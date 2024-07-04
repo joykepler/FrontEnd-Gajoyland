@@ -6,13 +6,32 @@
     justify-content: center;
 }
 
-.button button {
+button {
     border: none;
-    background-color: #ffc278;
+    background-color: #ffb04fef;
     width: 40%;
     height: 40px;
     border-radius: 5px;
     color: #FFFFFF;
     font-weight: 300;
     font-size: 16px;
+    margin-top: 20px;
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 767px) {
+    button {
+        width: 300px;
+    } 
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+    button {
+        width: 60%;
+        height: 40px;
+    } 
 }
