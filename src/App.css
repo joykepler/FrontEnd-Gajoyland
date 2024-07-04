@@ -6,6 +6,6 @@
 }
 
 body {    
-    background: linear-gradient(to bottom, #ffa11e 0%,  #f5301d 25%, #740039 70%, #21012a 100%);
-    height: 100vh;
+    background: url("assets/background.jpg");
+    background-size: cover;
 }

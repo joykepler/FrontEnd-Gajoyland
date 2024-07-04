@@ -8,9 +8,11 @@
 
 .button button {
     border: none;
-    background-color: #0366FF; 
-    width: 30%;
-    height: 30px;
+    background-color: #ffc278;
+    width: 40%;
+    height: 40px;
     border-radius: 5px;
     color: #FFFFFF;
+    font-weight: 300;
+    font-size: 16px;
 }
