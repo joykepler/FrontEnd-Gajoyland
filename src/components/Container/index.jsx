@@ -1,6 +1,7 @@
 import './container.css'
 import Input from '../Input'
 import Button from '../Button'
+import { Link } from 'react-router-dom'
 
 const Container = () => {
     const svgName = {
@@ -14,6 +15,9 @@ const Container = () => {
                 <Input type="email" placeholder="example@gmail.com" svg={svgName.usuario}/>
                 <Input type="password" placeholder="Password" svg={svgName.cadeado}/>
             </div>
+            <p>
+        Não tem uma conta? <Link to="/register">Registre-se aqui</Link>
+      </p>
             <Button />
         </div>
     )
