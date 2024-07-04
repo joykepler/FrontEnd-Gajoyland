@@ -1,0 +1,31 @@
+@import url("../../App.css"); 
+
+.container {
+    width: 585px;
+    height: 690px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Inter', sans-serif;
+    padding: 70px;
+    background: rgba(172, 172, 172, 0.375);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.container h1 {
+    color: #232323;
+    font-size: 30px;
+}
+
+.container p {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: #545454;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}

@@ -1,0 +1,19 @@
+@import url("../../App.css"); 
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.input-box {
+    width: 80%;
+    height: 50px;
+    border: 1px solid #E6E6E6;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.input-box::placeholder {
+    font-size: 15px;
+    color: #4F4F4f;
+}
